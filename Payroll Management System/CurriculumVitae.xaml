@@ -1,0 +1,465 @@
+﻿<Window x:Class="Payroll_Management_System.CurriculumVitae"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Payroll_Management_System"
+        Icon="D:\Nyein Chan Aung\C# Problems\Photos\cv.png"
+        mc:Ignorable="d"
+        Title="CurriculumVitae" Height="660" Width="700" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="win_loaded">
+    <Grid HorizontalAlignment="Left" Width="700">
+
+
+
+        <StackPanel 
+                  Background="#FFF7F0F0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="30,5,0,0" Height="300" Width="628"
+                >
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                    
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                    FontWeight="Bold"
+                        TextAlignment="Left"
+                        Margin="280,10,10,10"
+                        Text="Bio Data" FontSize="13.333" />
+
+
+            </StackPanel>
+
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Name" />
+                <TextBox Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                             x:Name="txtName"
+                          Height="18"   />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Blood" />
+                <ComboBox Width="135"
+                                 Margin="5"
+                              BorderBrush="DarkBlue"
+                               x:Name="txtBlood"
+                          Height="20" >
+                    <ComboBoxItem Content="O"/>
+                    <ComboBoxItem Content="A"/>
+                    <ComboBoxItem Content="B"/>
+                    <ComboBoxItem Content="AB"/>
+                </ComboBox>
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="NRC" />
+                <TextBox Width="135"
+                             BorderBrush="DarkBlue"
+                               Margin="5"
+                              x:Name="txtNRC"
+                          Height="18"   />
+                <TextBlock 
+                         Width="90"
+                        Height="18"
+                        VerticalAlignment="Center"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Height" />
+                <TextBox  Width="40"
+                               x:Name="txtFeet"
+                              BorderBrush="DarkBlue"
+                              Margin="5"
+                          Height="18" />
+                <TextBlock Width="20" Text ="ft" Foreground="DarkBlue" Margin="0,7,0,7" />
+                <TextBox x:Name="txtInches"  Width="40"
+                              
+                              BorderBrush="DarkBlue"
+                              Margin="5,5,5,5"
+                          Height="18" />
+                <TextBlock Width="20" Text ="in" Foreground="DarkBlue" Margin="0,7,0,7" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="19"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="DOB" />
+                <DatePicker Width="135"
+                               Margin="5"
+                             BorderBrush="{x:Null}"
+                              x:Name="txtDOB"
+                          Height="25" SelectedDateChanged="changed"   />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Age" />
+                <TextBox  Width="135"
+                                 Margin="5"
+                              BorderBrush="DarkBlue"
+                               x:Name="txtAge"
+                          Height="18" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Father's Name" />
+                <TextBox Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                              x:Name="txtFather"
+                          Height="18"   />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Weight" />
+                <TextBox  Width="100"
+                                Margin="5"
+                              BorderBrush="DarkBlue"
+                               x:Name="txtWeight"
+                          Height="18" />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="20"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="5,5,5,5"
+                        Text="lb" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Apply for" />
+                <TextBox Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                              x:Name="txtApply"
+                          Height="18"   />
+                <TextBlock 
+                	VerticalAlignment="Center"
+                	Width="90"
+                	Height="18"
+                	TextAlignment="Left"
+                	Margin="75,7,5,7"
+                	Text="Expected salary" />
+                <TextBox  Width="135"
+                                Margin="5"
+                              BorderBrush="DarkBlue"
+                               x:Name="txtExSalary"
+                          Height="18" />
+
+            </StackPanel>
+            <StackPanel  Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Other name" />
+                <TextBox Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                              x:Name="txtOthername"
+                          Height="18"   />
+
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Marital Status" />
+                <ComboBox  Width="135"
+                                Margin="5"
+                              BorderBrush="DarkBlue"
+                               x:Name="txtMarital"
+                          Height="20" >
+                    <ComboBoxItem Content="Single"/>
+                    <ComboBoxItem Content="Married"/>
+                    <ComboBoxItem Content="Widowed"/>
+                    <ComboBoxItem Content="Divorced"/>
+                </ComboBox>
+
+            </StackPanel>
+            <StackPanel  Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Religion" />
+                <ComboBox Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                              x:Name="txtReligion"
+                          Height="20"   >
+                    <ComboBoxItem Content="Buddha"/>
+                    <ComboBoxItem Content="Hindu"/>
+                    <ComboBoxItem Content="Muslin"/>
+                    <ComboBoxItem Content="Christian"/>
+                </ComboBox>
+
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="95"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="75,5,5,5"
+                        Text="Sex" />
+
+                <RadioButton x:Name="radioMale" Height="18" Content="Male" Width="55" Checked="male_checked" ></RadioButton>
+                <RadioButton x:Name="radioFemale" Height="18" Content="Female" Checked="female"></RadioButton>
+
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+
+
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel 
+             Background="#FFF7F0F0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Margin="30,300,0,0" Height="260" Width="628"
+                >
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                     FontWeight="Bold"
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="100,10,10,10"
+                        Text="Address" FontSize="13.333" />
+                <TextBlock
+                    FontWeight="Bold"
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="200,10,10,10"
+                        Text="Qualification" FontSize="13.333" />
+
+            </StackPanel>
+
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Place of Birth" />
+                <TextBox x:Name="txtPOB" Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                             
+                          Height="18"   />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Education" />
+                <TextBox x:Name="txtEdu"  Width="135"
+                                 Margin="5"
+                              BorderBrush="DarkBlue"
+                            
+                          Height="18" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Township" />
+                <TextBox x:Name="txtTown" Width="135"
+                             BorderBrush="DarkBlue"
+                               Margin="5"
+                            
+                          Height="18"   />
+                <TextBlock 
+                         Width="90"
+                        Height="18"
+                        VerticalAlignment="Center"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Experience" />
+                <TextBox x:Name="txtExperience"  Width="135"
+                              
+                              BorderBrush="DarkBlue"
+                              Margin="5"
+                          Height="18" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Top"
+                        Width="90"
+                        Height="20"
+                        TextAlignment="Left"
+                        Margin="10,6,10,0"
+                        Text="Email" />
+                <TextBox x:Name="txtEmail" Width="135"
+                               Margin="5"
+                             BorderBrush="DarkBlue"
+                              
+                          Height="18"   />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Language" />
+                <TextBox x:Name="txtLanguage"  Width="135"
+                                 Margin="5,7"
+                              BorderBrush="DarkBlue"
+                              
+                          Height="18" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Primary Ph" />
+                <TextBox x:Name="txtPrimaryph" Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                             
+                          Height="18"   />
+                <TextBlock 
+                        VerticalAlignment="Center"
+                         Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                         Margin="75,5,5,5"
+                        Text="Note" />
+                <TextBox x:Name="txtNote"  Width="143"
+                                Margin="5,4,0,-57"
+                              BorderBrush="DarkBlue" />
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Secondary Ph" />
+                <TextBox x:Name="txtSecondaryph" Width="135"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                            
+                          Height="18"   />
+
+
+            </StackPanel>
+            <StackPanel Margin="2"
+                            Height="32"
+                    Orientation="Horizontal">
+                <TextBlock
+                        VerticalAlignment="Center"
+                        Width="90"
+                        Height="18"
+                        TextAlignment="Left"
+                        Margin="10"
+                        Text="Temporary Addr" />
+                <TextBox x:Name="txtTempaddr" Width="250"
+                             Margin="5"
+                             BorderBrush="DarkBlue"
+                              
+                          Height="18"   />
+
+
+            </StackPanel>
+
+        </StackPanel>
+        <Button x:Name="button" Content="Save" HorizontalAlignment="Left" Height="36" Margin="440,580,0,0" VerticalAlignment="Top" Width="100" Click="save_click" RenderTransformOrigin="0.55,0.565" Background="DarkBlue" Foreground="White"/>
+        <Button x:Name="button1" BorderBrush="{x:Null}" Background="{x:Null}" ToolTipService.InitialShowDelay="300" ToolTipService.ShowDuration="1000" ToolTipService.BetweenShowDelay="1000" ToolTip="New"  HorizontalAlignment="Left" Height="36" Margin="570,580,0,0" VerticalAlignment="Top" Width="35" Click="cvnew_click">
+            <Image x:Name="cvnew" Source="D:\Nyein Chan Aung\C# Problems\Photos/new2.png">
+                
+            </Image>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,73 @@
+﻿<Page x:Class="Payroll_Management_System.DeductionUpdate"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Payroll_Management_System"
+      mc:Ignorable="d" 
+      d:DesignHeight="444" d:DesignWidth="250"
+      Title="DeductionUpdate" Loaded="page_load">
+
+    <Page.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+    </Page.Resources>
+
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="45" Margin="19,19,0,0" TextWrapping="Wrap" Text="Deduction" VerticalAlignment="Top" Width="215" FontSize="21" TextAlignment="Center" FontWeight="Bold" Foreground="White"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Foreground="White" Margin="19,84,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="27" Width="47" FontSize="12"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="27" Margin="91,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="13.333" BorderBrush="#FF1146E4" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Foreground="White" Height="27" Margin="19,137,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="47" FontSize="13.333"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="27" Margin="91,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="13.333" BorderBrush="#FF1146E4" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock3" Foreground="White" HorizontalAlignment="Left" Height="27" Margin="19,191,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top" Width="57" FontSize="12"/>
+        <ComboBox x:Name="txtType" HorizontalAlignment="Left" Height="27" Margin="91,191,0,0" VerticalAlignment="Top" Width="143" FontSize="13.333" BorderBrush="#FF1146E4">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFEEDCDC" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Late"/>
+        </ComboBox>
+        <GroupBox x:Name="groupBox" Header="Length" Foreground="White" HorizontalAlignment="Left" Height="91" Margin="19,234,0,0" VerticalAlignment="Top" Width="215" FontSize="13.333" BorderBrush="#FF1146E4" BorderThickness="0.5"/>
+        <ComboBox x:Name="txtBegin" HorizontalAlignment="Left" Height="30" Margin="73,280,0,0" VerticalAlignment="Top" Width="54">
+            <ComboBoxItem Content="Jan"/>
+            <ComboBoxItem Content="Feb"/>
+            <ComboBoxItem Content="March"/>
+            <ComboBoxItem Content="April"/>
+            <ComboBoxItem Content="May"/>
+            <ComboBoxItem Content="Jun"/>
+            <ComboBoxItem Content="July"/>
+            <ComboBoxItem Content="Aug"/>
+            <ComboBoxItem Content="Sept"/>
+            <ComboBoxItem Content="Oct"/>
+            <ComboBoxItem Content="Nov"/>
+            <ComboBoxItem Content="Dec"/>
+        </ComboBox>
+        <TextBlock x:Name="textBlock5" Foreground="White" HorizontalAlignment="Left" Height="19" Margin="132,289,0,0" TextWrapping="Wrap" Text="End" VerticalAlignment="Top" Width="29" FontSize="12"/>
+        <ComboBox x:Name="txtEnd" HorizontalAlignment="Left" Height="30" Margin="159,280,0,0" VerticalAlignment="Top" Width="54">
+            <ComboBoxItem Content="Jan"/>
+            <ComboBoxItem Content="Feb"/>
+            <ComboBoxItem Content="March"/>
+            <ComboBoxItem Content="April"/>
+            <ComboBoxItem Content="May"/>
+            <ComboBoxItem Content="Jun"/>
+            <ComboBoxItem Content="July"/>
+            <ComboBoxItem Content="Aug"/>
+            <ComboBoxItem Content="Sept"/>
+            <ComboBoxItem Content="Oct"/>
+            <ComboBoxItem Content="Nov"/>
+            <ComboBoxItem Content="Dec"/>
+        </ComboBox>
+        <TextBlock x:Name="textBlock6" Foreground="White" HorizontalAlignment="Left" Height="27" Margin="19,342,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Width="57" FontSize="12"/>
+        <TextBox x:Name="txtAmount" HorizontalAlignment="Left" Height="27" Margin="91,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="12" BorderBrush="#FF1146E4"/>
+        <Button x:Name="button" Content="Update" HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="89" FontSize="16" FontWeight="Bold" Background="#FF71CD62" BorderBrush="#FF2EA81A" Foreground="#FF040215" Margin="0,390,0,0" Click="update_click"/>
+        <TextBlock x:Name="textBlock7" Foreground="White" HorizontalAlignment="Left" Height="22" Margin="26,287,0,0" TextWrapping="Wrap" Text="Begin" VerticalAlignment="Top" Width="47" FontSize="12"/>
+    </Grid>
+</Page>

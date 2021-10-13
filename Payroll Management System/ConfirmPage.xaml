@@ -1,0 +1,22 @@
+﻿<Page x:Class="Payroll_Management_System.ConfirmPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Payroll_Management_System"
+      mc:Ignorable="d" 
+      d:DesignHeight="444" d:DesignWidth="250"
+      Title="ConfirmPage" Loaded="page_loaded">
+
+    <Grid Background="White">
+        <StackPanel Height="45" Width="225" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15,25,0,0">
+            <Image Source="D:\Nyein Chan Aung\C# Problems\Photos\warning.jpg" Height="20" Margin="20,10,52,0" Width="30" HorizontalAlignment="Left" />
+            <Label x:Name="warning"  Content="Warning" Height="49" Margin="55,-33,0,5" Width="115" FontWeight="Bold" Foreground="Red" HorizontalAlignment="Left" FontSize="23"/>
+        </StackPanel>
+        <TextBlock x:Name="sure" HorizontalAlignment="Left" Height="35" Margin="10,95,0,0" TextWrapping="Wrap" Text="Are You Sure?" VerticalAlignment="Top" Width="240" FontSize="17" Foreground="DarkBlue" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="55" Margin="10,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Width="230" Foreground="DarkBlue" Text="You can update nothing after confirming for this month!" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="45" Margin="10,245,0,0" TextWrapping="Wrap" Foreground="DarkBlue" VerticalAlignment="Top" Width="230"><Run Text="Tip:   You can confirm only at the end day"/><LineBreak/><Run Text="         of month."/></TextBlock>
+        <Button x:Name="confirm" Content="Confirm" HorizontalAlignment="Left" Height="40" Margin="65,345,0,0" VerticalAlignment="Top" Width="100" FontSize="15" Background="red" Foreground="White" BorderBrush="{x:Null}" Click="sureconfirm_click" />
+
+    </Grid>
+</Page>

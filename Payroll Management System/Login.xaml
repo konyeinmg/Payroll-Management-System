@@ -1,0 +1,33 @@
+﻿<Window x:Class="Payroll_Management_System.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Payroll_Management_System"
+        mc:Ignorable="d"
+        Title="Login" Height="250" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Window.Resources>
+        
+    </Window.Resources>
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"  Width="230" Margin="32,0,31.333,55" >
+            <StackPanel Margin="2,2,-0.333,2" VerticalAlignment="Top" Height="30">
+                <TextBlock Foreground="DarkBlue" VerticalAlignment="Center"  Margin="76,5,0,5" HorizontalAlignment="Left" Width="90" Text="Welcome" TextAlignment="Center" FontSize="14.667" FontWeight="Bold" ></TextBlock>
+            </StackPanel>
+            <StackPanel Height="40" Orientation="Horizontal" Margin="0">
+                <TextBlock Margin="5,8" Foreground="DarkBlue"  Height="25" Width="45" Text="Name"></TextBlock>
+                <TextBox x:Name ="txtName" Margin="10" BorderBrush="DarkBlue" Width="153" ></TextBox>
+            </StackPanel>
+            <StackPanel Height="40" Orientation="Horizontal" Margin="0">
+                <TextBlock Foreground="DarkBlue" Margin="5,8"  Height="25" Width="45" Text="ID"></TextBlock>
+                <TextBox x:Name="txtid" Margin="10" BorderBrush="DarkBlue" Width="153" ></TextBox>
+            </StackPanel>
+            <StackPanel Height="40" Orientation="Horizontal" Margin="0">
+                <TextBlock Foreground="DarkBlue" Margin="5,8,5,7"  Height="25" Width="49" Text="Password"/>
+                <PasswordBox x:Name="txtpwd" PasswordChar="*" Margin="10" BorderBrush="DarkBlue" Width="150" />
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="login" Foreground="White" Background="DarkBlue" Content="Log in" HorizontalAlignment="Center" Height="25" Margin="160,166,49,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="0.525,0.013" Click="kick_click"/>
+        <Button x:Name="singin" Foreground="White" Background="DarkBlue" Content="Sign in" HorizontalAlignment="Center" Height="25" Margin="60,166,149,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="0.525,0.013" Click="sing_click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,112 @@
+E:\user\C# projects\Payroll Management System\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.csprojResolveAssemblyReference.cache
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Allowance.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Daily Process.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Deduction.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Home.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\MainWindow.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Pay Change.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Pay Master.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Search.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\View.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\App.g.cs
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System_MarkupCompile.cache
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System_MarkupCompile.lref
+E:\user\C# projects\Payroll Management System\Payroll Management System\bin\Debug\Payroll Management System.exe
+E:\user\C# projects\Payroll Management System\Payroll Management System\bin\Debug\Payroll Management System.pdb
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Allowance.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Daily Process.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Deduction.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Home.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\MainWindow.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Pay Change.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Pay Master.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Search.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\View.baml
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.g.resources
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll_Management_System.Properties.Resources.resources
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.csproj.GenerateResource.Cache
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.exe
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.pdb
+E:\user\C# projects\Payroll Management System\Payroll Management System\obj\Debug\App.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.exe
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.pdb
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\bin\Debug\Payroll Management System.exe
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\bin\Debug\Payroll Management System.pdb
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.csprojResolveAssemblyReference.cache
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Allowance.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Daily Process.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Deduction.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Home.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\MainWindow.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Pay Change.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Pay Master.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Search.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\View.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\App.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System_MarkupCompile.cache
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System_MarkupCompile.lref
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\App.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Allowance.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Daily Process.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Deduction.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Home.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\MainWindow.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Pay Change.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Pay Master.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Search.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\View.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.g.resources
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll_Management_System.Properties.Resources.resources
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Payroll Management System.csproj.GenerateResource.Cache
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\bin\Debug\MySql.Data.dll
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\bin\Debug\MySql.Data.xml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Overtime.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Overtime.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Leavelist.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Leavelist.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\AllowanceUpdate.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\AllowanceUpdate.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\DeductionUpdate.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\DeductionUpdate.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\OvertimeUpdate.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\OvertimeUpdate.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\LeavelistUpdate.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\LeavelistUpdate.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PayUpdate.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PayUpdate.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\CurriculumVitae.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\CurriculumVitae.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\EmployeeData.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\EmployeeData.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\New Appointment.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\New Appointment.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Kickout.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Kickout.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Attendance.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Attendance.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PermanentKick.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\TemporaryKick.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PermanentKick.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\TemporaryKick.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\ConfirmPage.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\ConfirmPage.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PaySlip.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PaySlip.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PaySalary.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PaySalary.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\paytest.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\paytest.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Browse.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Browse.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Login.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Login.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Authorise.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Authorise.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Department.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PositionSalary.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Tax.g.cs
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Department.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\PositionSalary.baml
+D:\Nyein Chan Aung\C# Problems\Payroll Management System\Payroll Management System\obj\Debug\Tax.baml

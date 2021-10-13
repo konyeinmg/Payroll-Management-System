@@ -1,0 +1,60 @@
+﻿<Page x:Class="Payroll_Management_System.Leavelist"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Payroll_Management_System"
+      mc:Ignorable="d" 
+      d:DesignHeight="474" d:DesignWidth="254"
+      Title="Leavelist" Loaded="page_loaded">
+
+    <Page.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+    </Page.Resources>
+
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="45" Margin="19,19,0,0" TextWrapping="Wrap" Text="Leave List" VerticalAlignment="Top" Width="215" FontSize="21" TextAlignment="Center" FontWeight="Bold" Foreground="White"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Foreground="White" Margin="22,87,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="27" Width="47" FontSize="12"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="27" Margin="91,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="13.333" BorderBrush="#FF1146E4" TextChanged="name_changed"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Foreground="White" Height="27" Margin="22,140,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="47" FontSize="13.333"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="27" Margin="91,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="13.333" BorderBrush="#FF1146E4" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock3" Foreground="White" HorizontalAlignment="Left" Height="27" Margin="19,193,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top" Width="57" FontSize="12" RenderTransformOrigin="0.193,0.704"/>
+        <ComboBox x:Name="txtType" HorizontalAlignment="Left" Height="27" Margin="91,191,0,0" VerticalAlignment="Top" Width="143" FontSize="13.333" BorderBrush="#FF1146E4">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFEEDCDC" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Casual Leave"/>
+            <ComboBoxItem Content="Annual Leave"/>
+            <ComboBoxItem Content="Medical Leave"/>
+            <ComboBoxItem Content="Parental Leave"/>
+            <ComboBoxItem Content="Study &amp; Training Leave"/>
+            <ComboBoxItem Content="Adverse Weather Leave"/>
+            <ComboBoxItem Content="Absence"/>
+            <ComboBoxItem Content="Personal Leave"/>
+        </ComboBox>
+        <GroupBox x:Name="groupBox" Header="Date" Foreground="White" HorizontalAlignment="Left" Height="131" Margin="19,234,0,0" VerticalAlignment="Top" Width="215" FontSize="13.333" BorderBrush="#FF1146E4" BorderThickness="0.5">
+        </GroupBox>
+        <TextBlock x:Name="textBlock7" Foreground="White" HorizontalAlignment="Left" Height="22" Margin="26,270,0,0" TextWrapping="Wrap" Text="Begin" VerticalAlignment="Top" Width="47" FontSize="12"/>
+        <DatePicker x:Name="txtPicker" HorizontalAlignment="Left" Margin="91,268,0,0" VerticalAlignment="Top" Height="27" BorderBrush="{x:Null}" Width="129"/>
+        <TextBlock x:Name="textBlock5" Foreground="White" HorizontalAlignment="Left" Height="19" Margin="26,323,0,0" TextWrapping="Wrap" Text="End" VerticalAlignment="Top" Width="29" FontSize="12"/>
+        <DatePicker x:Name="txtPicker1" HorizontalAlignment="Left" Margin="91,319,0,0" VerticalAlignment="Top" Width="129" Height="27" BorderBrush="{x:Null}"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="90" FontSize="16" FontWeight="Bold" Background="#FF71CD62" BorderBrush="#FF2EA81A" Foreground="#FF040215" Margin="82,386,82,0" Click="submit_click"/>
+
+        <Button x:Name="newleave" BorderBrush="{x:Null}" Background="{x:Null}" ToolTipService.InitialShowDelay="300" ToolTipService.ShowDuration="1000" ToolTipService.BetweenShowDelay="1000" ToolTip="New"  HorizontalAlignment="Left" Height="36" Margin="185,385,0,0" VerticalAlignment="Top" Width="35" Click="new_click">
+            <Image Source="D:\Nyein Chan Aung\C# Problems\Photos/new1.png">
+
+            </Image>
+        </Button>
+
+    </Grid>
+</Page>
